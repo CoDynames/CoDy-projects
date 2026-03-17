@@ -1,0 +1,70 @@
+Pila o perguntador
+
+import java.util.Scanner;
+public class atividade2 {
+        public static void main(String[] args) {
+        Scanner pila = new Scanner (System.in);
+        System.out.println("Qual e o seu nome? ");
+        String nome = pila.nextLine();
+
+        System.out.println("Qual e a sua idade? ");
+        int idade = pila.nextShort();
+
+        System.out.println ("Qual seu salario?");
+        float Salario = pila.nextFloat();
+
+        System.out.println("Qual sua data de nascimento?");
+        String Data = pila.nextLine();
+        Data = pila.nextLine();
+
+        System.out.println("Qual sua nacionalidade?");
+        String nacao = pila.nextLine();
+
+        System.out.println("Qual sua naturalidade?");
+        String naturalidade = pila.nextLine();
+
+        System.out.println("Qual sua Matricula?");
+        String Matricula = pila.nextLine();
+
+
+        System.out.println("ola," + nome + " voce tem " + idade + " anos ," +
+         " Seu Salario e " + Salario + " Voce nasceu em " + Data + 
+         " Sua nacionalidade e " + nacao + " Sua naturalidade e " + naturalidade + 
+         " e sua matricula e " + Matricula );
+        pila.close();
+
+        }
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+Pila 2 o calculador
+
+import java.util.Scanner;
+public class atividade3{
+
+public static void main (String[] args) {
+Scanner pila2 = new Scanner (System.in);
+
+System.out.println("Valor Um");
+Double ValorUm = pila2.nextDouble();
+
+System.out.println("ValorDois");
+Double ValorDuo = pila2.nextDouble();
+
+System.out.println("Resultado Soma:");
+System.out.println(ValorUm+ValorDuo);
+
+System.out.println("Resultado Subtração:");
+System.out.println(ValorUm-ValorDuo);
+
+System.out.println("Resultado Multiplicação:");
+System.out.println(ValorUm*ValorDuo);
+
+System.out.println("Resultado Divisão:");
+System.out.println(ValorUm/ValorDuo);
+
+System.out.println("Resto da Divisão:");
+System.out.println(ValorUm%ValorDuo);
+pila2.close();
